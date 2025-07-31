@@ -25,7 +25,7 @@ ya pkg add gogongxt/smart-tab
 
 在您的 `keymap.toml` 中添加以下按键绑定。这允许您使用 `Alt+1` 到 `Alt+8` 切换到或创建相应的标签页。
 
-```toml
+```plaintext
 [mgr.prepend_keymap]
 # -- smart-tab
 # 切换到第 N 个标签页，如果它尚不存在但紧邻当前最后一个标签页，则创建它。
@@ -39,4 +39,5 @@ ya pkg add gogongxt/smart-tab
 { on = "7", run = "plugin smart-tab  6", desc = "Switch to/create tab 7" },
 { on = "8", run = "plugin smart-tab  7", desc = "Switch to/create tab 8" },
 { on = "9", run = "plugin smart-tab  8", desc = "Switch to/create tab 9" },
+{ on = "0", run = "plugin smart-tab  9", desc = "Switch to/create tab 10" },
 ```
